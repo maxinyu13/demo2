@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>星河影院</title>
+	<link rel="stylesheet" href="./css/css.css">
+	<style>
+		.leftsidebar {
+			width: 180px;
+			height: 200px;
+			float: left;
+			position: absolute;
+		}
+		.container {
+            position: relative;
+            width: 985px;
+            height: 500px;
+            margin:10px auto 0 auto;
+            box-shadow: 0 0 5px green;
+            overflow: hidden;
+		}
+		.banner {
+            position: absolute;
+            width: 6895px;
+            height: 500px;
+            z-index: 1;
+		}
+		.container .banner img {
+            float: left;
+            width: 985px;
+            height: 500px;
+		}
+		.container .arrow {
+            position: absolute;
+            top: 45%;
+            color: green;
+            padding:0px 14px;
+            border-radius: 50%;
+            font-size: 50px;
+            z-index: 2;
+            display: none;
+        }
+        .container .arrow_left {
+            left: 10px;
+        }
+        .container .arrow_right {
+            right: 10px;
+        }
+        .container:hover .arrow {
+            display: block;
+        }
+        .container .arrow:hover {
+            background-color: rgba(0,0,0,0.2);
+        }
+	</style>
+</head>
+<body class="clear">
+	<div class="title">
+		<div class="header">
+			<img src="imgs/logo.png" />
+			<h1>星河影院，免费看电影</h1>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="nav clear">
+			<ul class="clear">
+				<li>
+					<img src="imgs/nav1.png" alt="首页">
+					<p><a href="#">首页</a></p>
+				</li>
+				<li>
+					<img src="imgs/nav2.png" alt="电影">
+					<p><a href="#">电影</a></p>
+				</li>
+				<li>
+					<img src="imgs/nav3.png" alt="电视剧">
+					<p><a href="#">电视剧</a></p>
+				</li>
+				<li>
+					<img src="imgs/nav4.png" alt="动漫">
+					<p><a href="#">动漫</a></p>
+				</li>
+				<li>
+					<img src="imgs/nav5.png" alt="综艺">
+					<p><a href="#">综艺</a></p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="resou">
+		<div class="leftsidebar">
+			<p class="sidebar0">快速导航：</p>
+			<p class="sidebar1"><a href="#">哥斯拉2：怪兽之王</a></p>
+			<p class="sidebar2"><a href="#">传闻中的陈芊芊</a></p>
+			<p class="sidebar3"><a href="#">冰雪奇缘2</a></p>
+			<p class="sidebar4"><a href="#">半个喜剧</a></p>
+			<p class="sidebar5"><a href="#">少年的你</a></p>
+		</div>
+		<div class="container">
+			<div class="banner" style="left: -985px;">
+				<img src="./imgs/狼殿下.jpg" />
+				<img src="./imgs/暖暖请多指教.jpg" />
+				<img src="./imgs/传闻中的陈芊芊.png" />
+				<img src="./imgs/狼殿下.jpg" />
+				<img src="./imgs/暖暖请多指教.jpg" />
+				<img src="./imgs/传闻中的陈芊芊.png" />
+				<img src="./imgs/狼殿下.jpg" />
+			</div>
+			<a href="#" class="arrow arrow_left">&lt;</a>
+			<a href="#" class="arrow arrow_right">&gt;</a>
+		</div>
+		</div>
+	<div class="search">
+		<div class="center">
+			<form>
+				<input type="text" placeholder="请输入电影名称或演员名称(内容不能为空)" onfocus="this.placeholder=''" 
+				onblur="this.placeholder='请输入电影名称或演员名称(内容不能为空)'" class="search-box" /><input type="button" class="submit">
+			</form>
+		</div>
+	</div>
+	<div class="main">
+		<div class="content">
+			<div class="menu clear">
+				<ul class="left clear">
+					<li>热门电影</li>
+				</ul>
+				<ul class="right">
+					<li><a href="#">更多</a></li>
+				</ul>
+			</div>
+			<div class="list clear">
+				<div>
+					<img src="imgs/叶问4.png" />
+					<p class="p1">HD1280高清国语版/粤语版</p>
+					<p class="name"><a href="#">叶问4：完结篇</a></p>
+					<p class="act">甄子丹 陈国坤 斯科特·阿金斯</p>
+				</div>
+				<div>
+					<img src="imgs/少年的你.png" />
+					<p class="p1">HD1280高清国语版</p>
+					<p class="name"><a href="#">少年的你</a></p>
+					<p class="act">周冬雨 易烊千玺 尹昉 黄觉</p>
+				</div>
+				<div>
+					<img src="imgs/小丑.png" />
+					<p class="p1">BD1280高清中英双字版</p>
+					<p class="name"><a href="#">小丑</a></p>
+					<p class="act">杰昆·菲尼克斯 罗伯特·德尼罗 </p>
+				</div>
+				<div>
+					<img src="imgs/半个喜剧.png" />
+					<p class="p1">HD</p>
+					<p class="name"><a href="#">半个喜剧</a></p>
+					<p class="act">任素汐 吴昱翰 刘讯 汤敏</p>
+				</div>
+				<div>
+					<img src="imgs/误杀.png" />
+					<p class="p1">HD</p>
+					<p class="name"><a href="#">误杀2019</a></p>
+					<p class="act">肖央 谭卓 陈冲 姜皓文 秦沛</p>
+				</div>
+				<div>
+					<img src="imgs/囧妈.png" />
+					<p class="p1">HD</p>
+					<p class="name"><a href="#">囧妈2020</a></p>
+					<p class="act">徐峥 黄梅莹 袁泉 贾冰 郭京飞</p>
+				</div>
+				<div>
+					<img src="imgs/中国机长.png" />
+					<p class="p1">HD</p>
+					<p class="name"><a href="#">中国机长</a></p>
+					<p class="act">张涵予 欧豪 杜江 袁泉 李沁</p>
+				</div>
+				<div>
+					<img src="imgs/哥斯拉2.png" />
+					<p class="p1">BD1280高清特效双字版</p>
+					<p class="name"><a href="#">哥斯拉2：怪兽之王</a></p>
+					<p class="act">迈克尔·道赫蒂 扎克·希尔兹 </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main1">
+		<div class="content1">
+			<div class="menu1 clear">
+				<ul class="left1 clear">
+					<li>热门电视剧</li>
+				</ul>
+				<ul class="right1">
+					<li><a href="#">更多</a></li>
+				</ul>
+			</div>
+			<div class="list1 clear">
+				<div>
+					<img src="imgs/如懿传.png" />
+					<p class="p1">完结</p>
+					<p class="name"><a href="#">如懿传</a></p>
+					<p class="act">周迅 霍建华 张钧蜜</p>
+				</div>
+				<div>
+					<img src="imgs/龙岭迷窟.png" />
+					<p class="p1">完结</p>
+					<p class="name"><a href="#">龙岭迷窟</a></p>
+					<p class="act">潘粤明 张雨绮 姜超</p>
+				</div>
+				<div>
+					<img src="imgs/传闻中的陈芊芊.png" />
+					<p class="p1">完结</p>
+					<p class="name"><a href="#">传闻中的陈芊芊</a></p>
+					<p class="act">赵露思 丁禹兮 盛英豪</p>
+				</div>
+				<div>
+					<img src="imgs/庆余年.png" />
+					<p class="p1">46集全</p>
+					<p class="name"><a href="#">庆余年第一季</a></p>
+					<p class="act">张若昀 李沁 陈道明</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main2">
+		<div class="content2">
+			<div class="menu2 clear">
+				<ul class="left2 clear">
+					<li>热门动画片</li>
+				</ul>
+				<ul class="right2">
+					<li><a href="#">更多</a></li>
+				</ul>
+			</div>
+			<div class="list2 clear">
+				<div>
+					<img src="imgs/哪吒.png" />
+					<p class="p1">HD</p>
+					<p class="name"><a href="#">哪吒之魔童降世</a></p>
+					<p class="act">吕艳婷 囧森瑟夫 瀚墨</p>
+				</div>
+				<div>
+					<img src="imgs/冰雪奇缘2.png" />
+					<p class="p1">HD1280高清国语中字版</p>
+					<p class="name"><a href="#">冰雪奇缘2</a></p>
+					<p class="act">克里斯汀·贝尔 伊迪娜·门泽尔</p>
+				</div>
+				<div>
+					<img src="imgs/柯南.png" />
+					<p class="p1">更新至988集</p>
+					<p class="name"><a href="#">名侦探柯南</a></p>
+				</div>
+				<div>
+					<img src="imgs/画江湖.png" />
+					<p class="p1">完结</p>
+					<p class="name"><a href="#">画江湖之不良人3</a></p>
+					<p class="act">边江 朱雀橙 阎萌萌</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container1">
+			<ul>
+				<li>星河影院每日提供最新的免费电影、电视连续剧、免费动漫</li>
+				<li>免责声明：本网站所有内容是靠程序在互联网上自动采集而来，仅提供测试和学习交流</li>
+				<li>Copyright 2012-2020 星河影院. All Rights Reserved.</li>
+			</ul>
+		</div>
+	</div>
+</body>
+<script>
+	var leftsidebar = document.getElementsByClassName("leftsidebar");
+	leftsidebar[0].style.marginTop = "0";
+    var intervalId = setInterval(function() {
+        var marginTop = parseInt(leftsidebar[0].style.marginTop);
+        leftsidebar[0].style.marginTop = (marginTop + 1) + "px";
+        if(marginTop == 2000) {
+        	leftsidebar[0].style.marginTop = "0";
+        }
+	}, 30);
+	leftsidebar[0].onclick = function() {
+		clearInterval(intervalId);
+	}
+	
+	var banner = document.querySelector(".banner");
+    var next = document.querySelector(".arrow_right");
+    var prev = document.querySelector(".arrow_left");
+    next.onclick = function () {
+        next_pic();
+    }
+    prev.onclick = function () {
+        prev_pic();
+    }
+	function next_pic () {
+        var newLeft;
+        if(banner.style.left === "-4925px"){
+            newLeft = -1970;
+        }else{
+            newLeft = parseInt(banner.style.left)-985;
+        }
+        banner.style.left = newLeft + "px";
+    }
+    function prev_pic () {
+        var newLeft;
+        if(banner.style.left === "0px"){
+            newLeft = -3940;
+        }else{
+            newLeft = parseInt(banner.style.left)+985;
+        }
+        banner.style.left = newLeft + "px";
+    }
+
+	var timer = null;
+    function autoPlay () {
+        timer = setInterval(function () {
+            next_pic();
+        },2000);
+    }
+	autoPlay();
+	
+	var submit = document.getElementsByClassName("submit");
+	var searchBox = document.getElementsByClassName("search-box");
+	submit[0].onclick = function() {
+		if(searchBox[0].value == "") {
+			alert("内容不能为空！");
+		}
+	}
+</script>
+</html>
